@@ -2,7 +2,7 @@ import Head from "next/head";
 import styled from "@emotion/styled";
 import { InferGetStaticPropsType } from "next";
 import Link from "next/link";
-import FeedbackForm from "@components/FeeBackForm";
+import FeedbackForm from "@components/FeedbackFrom";
 
 const List = styled.ol``;
 const ListItem = styled.li`
