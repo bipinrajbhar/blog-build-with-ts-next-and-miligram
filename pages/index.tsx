@@ -20,7 +20,7 @@ export default function Home({posts}: InferGetStaticPropsType<typeof getStaticPr
       <List>
         {
           posts.map((post) => (
-            <ListItem>
+            <ListItem key={post.id}>
               <Link href="/post/[id]" as={`/post/${post.id}`}>
                 {post.title}
               </Link>
